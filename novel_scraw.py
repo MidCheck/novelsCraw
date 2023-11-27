@@ -95,6 +95,8 @@ async def search_noval_href(asession: AsyncHTMLSession, noval_name: str) -> str:
                 if url.startswith(root_url):
                     return name, url.replace(root_url, '')
                 return name, url
+        else:
+            raise RuntimeError("正则表达式没有匹配内容")
     except Exception as e:
         print("[-] 搜索小说出错:", str(e))
         return None
