@@ -1,7 +1,7 @@
 # novelsCraw
 novelsCraw是一个小说爬取工具，可以将搜索到的小说下载到本地阅读，适用于不想被网站广告打扰和在线阅读无网络情况
 
-本工具使用Python编写完成，要求Python版本>=3.10，支持Windows、Linux、MacOS等平台
+本工具使用Python编写完成，要求Python版本>=3.11，支持Windows、Linux、MacOS等平台
 
 ## 使用方法
 1. 安装python依赖包,推荐使用venv环境
